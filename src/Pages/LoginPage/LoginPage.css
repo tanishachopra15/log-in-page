@@ -1,0 +1,31 @@
+.login-page
+{
+    display: flex;
+    flex-direction: column;
+    background-color: green;
+    padding: 200px;
+    height: 100vh;
+}
+.login-page-details
+{
+    background-color: white;
+    padding: 80px 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+  
+}
+.login-page input
+{
+    padding: 10px 10px;
+    color: #000;
+}
+
+.login-page-details button
+{
+    background-color: green;
+    border: 1px solid green;
+    color: white;
+    padding: 5px 10px;
+}

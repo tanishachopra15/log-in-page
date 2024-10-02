@@ -1,0 +1,89 @@
+.header{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+}
+.expense-header
+{
+    border-bottom: 1px solid black;
+}
+.balance
+{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.balance-container
+{
+    border-left: 1px solid black;
+}
+.title-container
+{
+    width: 250px;
+    padding: 10px; 
+    /* border: 1px solid black;  */
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+.title-container input
+{
+    height: 30px;
+    border-radius: 10px;
+}
+.title-container input::placeholder
+{
+    text-align: center;
+}
+.title-container button
+{
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid green;
+    background: rgba(0, 255, 0, 0.44)
+}
+.amt-container
+{
+    width: 250px;
+    padding: 10px;
+    /* border: 1px solid black; */
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+.amt-container input
+{
+    height: 30px;
+    border-radius: 10px;
+}
+.amt-container input::placeholder
+{
+    text-align: center;
+}
+.amt-container button
+{
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid red;
+    background: rgba(255, 0, 0, 0.44);
+}
+.balance-type
+{
+    /* height: 30px; */
+    border-radius: 10px;
+    width: 250px;
+    padding: 10px;
+    border: 1px solid black; 
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+.balance-type In{
+    background-color: rgba(0, 255, 0, 0.44);
+}
+.transaction-details
+{
+    color: black;
+}

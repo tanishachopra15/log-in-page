@@ -1,0 +1,16 @@
+.link-container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-color: aqua;
+    gap: 10px;
+}
+.link-container button
+{
+    background-color: aqua;
+    border: none;
+    justify-content: center;
+}
